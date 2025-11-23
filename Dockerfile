@@ -1,5 +1,5 @@
 # Use the official LinuxServer Radarr image
-FROM lscr.io/linuxserver/radarr:version-6.0.4.10291
+FROM lscr.io/linuxserver/radarr:latest
 
 RUN apk add --update --no-cache sshpass
 RUN apk add --update --no-cache openssh
